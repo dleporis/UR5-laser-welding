@@ -1,0 +1,24 @@
+def hubc():
+  # Global parameters:
+  global speed_ms    = 0.040
+  global speed_rads  = 0.325
+  global accel_mss   = 0.500
+  global accel_radss = 600
+  global blend_radius_m = 0.001
+  
+  # set_reference(p[0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000])
+  set_tcp(p[0.000000, 0.000000, 0.200000, 0.000000, 0.000000, 0.000000])
+  
+  movel(p[0.033911, -0.480000, 0.071683, 0.000000, -2.792527, 0.000000],accel_mss,speed_ms,0,0.025)
+  movel(p[0.015100, -0.480000, 0.020000, 0.000000, -2.792527, 0.000000],accel_mss,speed_ms,0,0.025)
+  movec(p[0.000000, -0.464900, 0.020000, -0.000000, 3.14, -0.279],p[-0.01450, -0.480000, 0.020000, -0.000000, 2.792527, -0.000000],accel_mss,speed_ms,blend_radius_m)
+  movep(p[-0.014500, -0.480000, 0.020000, -0.000000, 2.792527, -0.000000],accel_mss,speed_ms,blend_radius_m)
+  movep(p[-0.014500, -0.480000, 0.020000, -0.000000, 2.792527, -0.000000],accel_mss,speed_ms,blend_radius_m)
+  movec(p[0.000000, -0.495100, 0.020000, 0.000000, -3.119889, -0.259991],p[0.015100, -0.480000, 0.020000, 0.000000, -2.792527, 0.000000],accel_mss,speed_ms,blend_radius_m)
+  movep(p[0.014800, -0.480000, 0.020000, 0.000000, -2.792527, 0.000000],accel_mss,speed_ms,0.025)
+  speed_ms = 0.100
+  movep(p[0.033911, -0.480000, 0.071683, 0.000000, -2.792527, 0.000000],accel_mss,speed_ms,blend_radius_m)
+  # End of main program
+end
+
+hubc()
