@@ -9,5 +9,5 @@ Then I 3D-printed fixtures to hold the impeller on the table and a to attach the
 I uploaded the URscript files to a UR5 teach pendant, and executed them on UR5 robot with the laser pointer "welding" the part with the given trajectories
 
 
-Video of robot:
+Video of RoboDK simulation and UR5 robot opperation:
 https://www.youtube.com/watch?v=qOLCMDUz51g
