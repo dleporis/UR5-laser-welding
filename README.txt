@@ -10,4 +10,4 @@ I uploaded the URscript files to a UR5 teach pendant, and executed them on UR5 r
 
 
 Video of robot:
-https://www.youtube.com/watch?v=1Pe1Ph-JeZw
+https://www.youtube.com/watch?v=qOLCMDUz51g
