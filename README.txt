@@ -6,7 +6,7 @@ Using the simulation, a pre-processor generated a Python-based URscript, which w
 Then I 3D-printed fixtures to hold the impeller on the table and a to attach the laser pointer to the end-effector.
 I executed the program with the laser pointer "welding" the part on the welding paths.
 
-
+The URscript source code containing welding paths is located in /working_inside-out and /working_outside-in
 
 Video of robot:
 https://www.youtube.com/watch?v=1Pe1Ph-JeZw
