@@ -1,5 +1,5 @@
 The topic of my 2nd-semester project was laser-welding of Grundfos pump impeller with Universal Robots UR5 robot. 
-The first step was making a CAD model in Solidworks, Then I imported the CAD model into RoboDK simulation software,
+The first step was making a CAD model of impeller in Solidworks, Then I imported the CAD model into RoboDK simulation software,
 where I selected welding paths and waypoints and checked for potential collisions and singularities of the robot model.
 
 I made a robot simulation in a software RoboDK https://robodk.com/ named final_robot_station.rdk
